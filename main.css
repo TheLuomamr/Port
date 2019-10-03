@@ -8,8 +8,7 @@ body {
   color: black;
   font-family: "Raleway", sans-serif;
 }
-nav {
-}
+
 .nav-item:hover {
   background-color: rgba(66, 233, 177, 0.37);
 }
