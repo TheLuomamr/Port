@@ -1,0 +1,97 @@
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Abel', sans-serif;
+*/
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding: 5%;
+  border: solid 10px #000000;
+  background-color: #ffffff;
+}
+#divOne{
+  background-color: #000000;
+  padding-top: 5%;
+  border-radius: 5px;
+  height: 100%;
+  position: relative;
+}
+
+img{
+  width: auto;
+  height: 28vh;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 2%
+}
+
+/*------Icons/Social--------*/
+.fab, .far{
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.fa-github:hover{
+color: #fff063;
+}
+.fa-linkedin:hover{
+color: #6087eb
+}
+.fa-twitter:hover{
+  color: #dd72a6
+}
+.fa-instagram:hover{
+  color: #3ec0ff
+}
+.fa-facebook:hover{
+  color: #ff7b9e
+}
+.fa-file-pdf:hover{
+  color:#8CFD7F
+}
+
+/*--------buttons-------*/
+.btn{
+  background-color:white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 5vh;
+  text-align:center;
+  /* padding-bottom: 2px;
+  padding-top: 2px; */
+  font-size: 20px;
+  /* border-left: solid 3px black */
+  transition: transform .9s;
+  margin-bottom: 5%;
+}
+.btn:nth-of-type(1){
+  font-family: 'Abel', sans-serif;
+}
+.btn:nth-of-type(2){
+  font-family: 'Marck Script', cursive;
+}
+.btn:nth-of-type(3){
+  font-family: 'Kaushan Script', cursive;
+}
+.btn:nth-of-type(4){
+  font-family: 'Dancing Script', cursive;
+}
+.btn:hover{
+  width: 120px;
+ 
+}
+
+/*----------RWD----------*/
+@media all and (min-width: 1024px){
+  .btn{
+    margin-bottom: 2.5%;
+  }
+  #divOne{
+    padding-top: 2.5%
+  }
+}
