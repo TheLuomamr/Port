@@ -33,7 +33,7 @@ img{
 /*------Icons/Social--------*/
 .fab, .far{
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 .fa-github:hover{
@@ -94,4 +94,18 @@ color: #6087eb
   #divOne{
     padding-top: 2.5%
   }
+}
+@media all and (min-width: 667px ) and (max-width: 1024px) and (orientation: landscape){
+  .btn{
+    padding-top: 0;
+    font-size: 20px;
+    height: 6vh;
+    margin-bottom: 1.5%;
+  }
+  .fab, .far{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
 }
