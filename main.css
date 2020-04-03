@@ -1,0 +1,110 @@
+/*
+font-family: 'Patua One', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Rajdhani', sans-serif;
+*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+  --color1-color-: #8cfd7f;
+  --color2-color-: #ff7b9e;
+  --color3-color-: #3ec0ff;
+  --color4-color-: #dd72a6;
+  --color5-color-: #6087eb;
+  --color6-color-: #fff063;
+}
+body {
+  padding: 3%;
+  border: solid 10px #ffffff;
+  background-color: #000000;
+  position: relative;
+}
+.divOne {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.fab,
+.far {
+  color: black;
+  font-size: 30px;
+  margin-right: 20px
+
+}
+.fa-github:hover {
+  color: #fff063;
+}
+.fa-linkedin:hover {
+  color: #6087eb;
+}
+.fa-twitter:hover {
+  color: #dd72a6;
+}
+.fa-instagram:hover {
+  color: #3ec0ff;
+}
+.fa-facebook:hover {
+  color: #ff7b9e;
+}
+.fa-file-pdf:hover {
+  color: #8cfd7f;
+}
+.fa-file-pdf {
+  margin-bottom: 50px;
+}
+
+i:hover {
+  transform: scale(1.5);
+}
+.me {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  margin-bottom: 0px;
+}
+#name {
+  height: 22vh;
+  margin-bottom: 2%;
+  filter: grayscale(100%);
+  
+}
+#name:hover {
+  filter: grayscale(0%);
+}
+#links {
+  color: black;
+  font-size: 22px;
+  font-family: 'Rajdhani', sans-serif;  float: right;
+  margin-right: 10%;
+  margin-top: 3%;
+  
+}
+.link{
+    color: black
+}
+.link:hover {
+  color: #ff7b9e;
+  text-decoration: none;
+}
+#hello {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6087eb;
+  font-family: "Abel", sans-serif;
+}
+.header {
+  background-color: #8cfd7fa1;
+  font-size: 25px;
+}
+.summary {
+  line-height: 0.6cm;
+  font-family: "Courier New", Courier, monospace;
+}
