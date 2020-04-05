@@ -38,22 +38,22 @@ body {
   margin-right: 20px
 
 }
-.fa-github:hover {
+.fa-github {
   color: #fff063;
 }
-.fa-linkedin:hover {
+.fa-linkedin{
   color: #6087eb;
 }
-.fa-twitter:hover {
+.fa-twitter{
   color: #dd72a6;
 }
-.fa-instagram:hover {
+.fa-instagram {
   color: #3ec0ff;
 }
-.fa-facebook:hover {
+.fa-facebook {
   color: #ff7b9e;
 }
-.fa-file-pdf:hover {
+.fa-file-pdf {
   color: #8cfd7f;
 }
 .fa-file-pdf {
@@ -61,6 +61,7 @@ body {
 }
 
 i:hover {
+  color: black;
   transform: scale(1.5);
 }
 .me {
