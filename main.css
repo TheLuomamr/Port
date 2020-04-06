@@ -84,21 +84,6 @@ i:hover {
   border-radius: 5px;
 }
 
-#links {
-  color: black;
-  font-size: 22px;
-  font-family: 'Rajdhani', sans-serif;  float: right;
-  margin-right: 10%;
-  margin-top: 3%;
-  
-}
-.link{
-    color: black
-}
-.link:hover {
-  color: #ff7b9e;
-  text-decoration: none;
-}
 #hello {
   font-size: 20px;
   font-weight: bold;
@@ -115,6 +100,11 @@ i:hover {
 }
 .tooltip{
   background-color: black
+}
+hr{
+  width: 75%;
+  background-color: #ff7b9e9f;
+  height: 2px;
 }
 
 /*---------RWD---------------*/
@@ -134,10 +124,13 @@ i:hover {
     text-align: center;
   }
   #name{
-    height: 15vh
+    height: 13vh
   }
   .headline{
     font-size: 25px;
+  }
+  .fab,.far,.fas{
+    margin-right: 10px;
   }
 }
 @media all and (min-width: 1679px){
