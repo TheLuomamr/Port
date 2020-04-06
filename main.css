@@ -30,9 +30,16 @@ body {
   width: 100%;
   position: relative;
 }
-
+#name {
+  height: 20vh;
+  text-align: center  
+}
+#name:hover {
+  filter: grayscale(0%);
+}
 .fab,
-.far {
+.far,
+.fas {
   color: black;
   font-size: 30px;
   margin-right: 20px
@@ -59,6 +66,10 @@ body {
 .fa-file-pdf {
   margin-bottom: 50px;
 }
+.fa-tree{
+  color: #fd7f7f;
+}
+
 
 i:hover {
   color: black;
@@ -72,13 +83,7 @@ i:hover {
   margin-top: 5px;
   border-radius: 5px;
 }
-#name {
-  height: 22vh;
-  margin-bottom: 2%;  
-}
-#name:hover {
-  filter: grayscale(0%);
-}
+
 #links {
   color: black;
   font-size: 22px;
@@ -100,20 +105,17 @@ i:hover {
   color: #6087eb;
   font-family: "Abel", sans-serif;
 }
-.header {
-  background-color: #8cfd7fa1;
-  font-size: 25px;
+.headline {
+  font-size: 35px;
+  margin-right: 3px;
 }
 .summary {
   line-height: 0.6cm;
   font-family: "Courier New", Courier, monospace;
 }
-
-/* .containerTwo{
-  background-color:#ff7b9e;
-  height: 100%;
-  width: 100%;
-} */
+.tooltip{
+  background-color: black
+}
 
 /*---------RWD---------------*/
 @media all and (min-width: 768px) and (orientation: landscape){
@@ -134,5 +136,47 @@ i:hover {
   #name{
     height: 15vh
   }
+  .headline{
+    font-size: 25px;
+  }
 }
+@media all and (min-width: 1679px){
+  #name{
+    margin: 15px;
+  }
+  .summary{
+    padding: 30px !important;
+    padding-left: 40px;
+     padding-right: 40px;
+  }
+  .fab,.far,.fas{
+    font-size: 45px;
+  }
+  .headline{
+    font-size: 30px;
+  }
+  .me{
+    padding: 10px;
+    border-radius: 15px;
+
+  }
+}
+@media all and (min-width: 2559px ){
+  body{
+    padding: 1%;
+  }
+  #name{
+    height: 30vh;
+  }
+  .summary{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    font-size: 22px;
+    line-height: 0.8cm;
+  }
+  .headline{
+    font-size: 40px;;
+  }
+}
+
 
