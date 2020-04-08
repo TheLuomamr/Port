@@ -18,7 +18,7 @@ body {
   --color6-color-: #fff063;
 }
 body {
-  padding: 3%;
+  padding: 2.5%;
   border: solid 10px #ffffff;
   background-color: #000000;
   position: relative;
@@ -32,30 +32,27 @@ body {
 }
 #name {
   height: 20vh;
-  text-align: center  
-}
-#name:hover {
-  filter: grayscale(0%);
+  text-align: center;
 }
 .fab,
 .far,
 .fas {
   color: black;
   font-size: 30px;
-  margin-right: 20px
-
+  margin-right: 20px;
 }
-.fa-github {
-  color: #fff063;
+.fa-github,
+.fa-envelope-open-text {
+  color: #3ec0ff;
 }
-.fa-linkedin{
+.fa-linkedin {
   color: #6087eb;
 }
-.fa-twitter{
+.fa-twitter {
   color: #dd72a6;
 }
 .fa-instagram {
-  color: #3ec0ff;
+  color: #fff063;
 }
 .fa-facebook {
   color: #ff7b9e;
@@ -66,10 +63,9 @@ body {
 .fa-file-pdf {
   margin-bottom: 50px;
 }
-.fa-tree{
-  color: #fd7f7f;
+.fa-tree {
+  color: #fa6363;
 }
-
 
 i:hover {
   color: black;
@@ -78,12 +74,9 @@ i:hover {
 .me {
   position: relative;
   width: 100%;
-  height: 90%;
+  height: 100%;
   filter: grayscale(100%);
-  margin-top: 5px;
-  border-radius: 5px;
 }
-
 #hello {
   font-size: 20px;
   font-weight: bold;
@@ -98,78 +91,79 @@ i:hover {
   line-height: 0.6cm;
   font-family: "Courier New", Courier, monospace;
 }
-.tooltip{
-  background-color: black
+.tooltip {
+  background-color: black;
 }
-hr{
+hr {
   width: 75%;
   background-color: #ff7b9e9f;
   height: 2px;
 }
 
 /*---------RWD---------------*/
-@media all and (min-width: 768px) and (orientation: landscape){
-  .row{
+@media all and (min-width: 768px) and (orientation: landscape) {
+  .row {
     height: 100%;
   }
 }
-@media all and (min-width: 768px) and (orientation: portrait){
-  .summary{
+@media all and (min-width: 768px) and (orientation: portrait) {
+  .summary {
     padding-right: 10% !important;
-    padding-left: 10% !important
+    padding-left: 10% !important;
   }
 }
-@media all and (min-width: 320px) and (orientation: portrait){
-  #links{
+@media all and (min-width: 320px) and (orientation: portrait) {
+  #links {
     text-align: center;
   }
-  #name{
-    height: 13vh
+  #name {
+    height: 13vh;
   }
-  .headline{
+  .headline {
     font-size: 25px;
   }
-  .fab,.far,.fas{
+  .fab,
+  .far,
+  .fas {
     margin-right: 10px;
   }
 }
-@media all and (min-width: 1679px){
-  #name{
+@media all and (min-width: 1679px) {
+  #name {
     margin: 15px;
   }
-  .summary{
+  .summary {
     padding: 30px !important;
     padding-left: 40px;
-     padding-right: 40px;
+    padding-right: 40px;
   }
-  .fab,.far,.fas{
+  .fab,
+  .far,
+  .fas {
     font-size: 45px;
   }
-  .headline{
+  .headline {
     font-size: 30px;
   }
-  .me{
+  .me {
     padding: 10px;
     border-radius: 15px;
-
   }
 }
-@media all and (min-width: 2559px ){
-  body{
+@media all and (min-width: 2559px) {
+  body {
     padding: 1%;
   }
-  #name{
+  #name {
     height: 30vh;
   }
-  .summary{
+  .summary {
     padding-left: 70px !important;
     padding-right: 70px !important;
     font-size: 22px;
     line-height: 0.8cm;
   }
-  .headline{
-    font-size: 40px;;
+  .headline {
+    font-size: 40px;
   }
 }
-
-
