@@ -81,8 +81,10 @@ i:hover {
 .me {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 95%;
   filter: grayscale(100%);
+  padding: 2%;
+  border-radius: 15px;
 }
 #hello {
   font-size: 20px;
